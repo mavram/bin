@@ -1,12 +1,12 @@
-## create_unversioned_python_symlinks.zsh ##
+## create_unversioned_homebrew_python.zsh ##
 
 ### Using the Script ###
-* **Save the Script:** Copy the script into a text file, for example, create_unversioned_python_symlinks.zsh.
+* **Save the Script:** Copy the script into a text file, for example, create_unversioned_homebrew_python.zsh.
 * **Make It Executable:** Before running the script, you need to make it executable. You can do this using the chmod command in the terminal:
 ```
 chmod +x create_unversioned_python_symlinks.zsh
 ```
-* **Run the Script:** Now, you can run the script by typing `./create_unversioned_python_symlinks.zsh` in the terminal from the directory where the script is located.
+* **Run the Script:** Now, you can run the script by typing `./create_unversioned_homebrew_python.zsh` in the terminal from the directory where the script is located.
 ### Additional Notes ##
 * Ensure `/usr/local/bin` is in your `PATH` environment variable for the symlinks to be effective.
 * Running the script might require sudo if your user does not have write permissions to `/usr/local/bin`.
