@@ -15,3 +15,13 @@ chmod +x create_unversioned_python_symlinks.zsh
 
 ### Enhancements ###
 * Add support for version as input parameter
+
+## first_day_of_the_week.zsh ##
+
+### Using the Script ###
+* **Usage:** ```./first_day_of_week.zsh <year> <week_number>.```
+### Additional Notes ##
+* The script that uses macOS’s native date command. This version uses the BSD date with -j (do not set date) and -f (input format) to correctly parse and manipulate dates without GNU extensions.
+
+### Enhancements ###
+* Support current year as default parameter
