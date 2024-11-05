@@ -12,9 +12,7 @@ chmod +x create_unversioned_python_symlinks.zsh
 * Running the script might require sudo if your user does not have write permissions to `/usr/local/bin`.
 * This script assumes that Homebrew's Python package installs its binaries with names like python3 and pip3, which is the standard naming convention. However, this could potentially change with future Homebrew or Python releases, so if you encounter issues, it may be worth checking the current naming convention.
 * Since you are creating symlinks to the Homebrew-managed versions of Python and pip, any updates to Homebrew's Python package should be reflected automatically in your symlinks, making it a convenient way to stay up to date.
-
-### Enhancements ###
-* Add support for version as input parameter
+* Version can be passed as input parameter. Script defaults to 3.12
 
 ## first_day_of_the_week.zsh ##
 
