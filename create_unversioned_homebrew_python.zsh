@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Set the default version if not provided
-PYTHON_VERSION=${1:-3.12}
+PYTHON_VERSION=${1:-3.13}
 
 # Directory where Homebrew installs Python
 PYTHON_HOME=$(brew --prefix python@$PYTHON_VERSION)/bin
